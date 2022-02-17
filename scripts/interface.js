@@ -32,7 +32,7 @@ function handleClick(event){
             playerTime = 'JOGADOR 2';
             playerWin();
         }    
-    }if(board[0] && board[1] && board[2] && board[3] && board[4] && board[5] && board[6] && board[7] && board[8] != ''){
+    }else if(board[0] && board[1] && board[2] && board[3] && board[4] && board[5] && board[6] && board[7] && board[8] != ''){
         setTimeout(() => {alert("DEU VELHA, DÁ RESET MONGOL")}, 100);
     }
     updateSquares();
